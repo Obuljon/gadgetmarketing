@@ -1,0 +1,26 @@
+<div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">name</th>
+            <th scope="col">bizda bor</th>
+            <th scope="col">sotilganlar</th>
+          </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(item => {%>
+                <tr>
+                    <td><%= item.name %></td>
+                    <td><%= item.number1 %></td>
+                    <td><%= item.number2 %></td>
+                </tr>
+            <%}) %>
+        </tbody>
+      </table>
+</div>
+
+<div>
+    <p>
+        <%= title %>
+    </p>
+</div>

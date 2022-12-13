@@ -1,0 +1,36 @@
+<div class="container mt-5" style="width: 35rem;">
+    <form action="/signup" method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" name="name">
+          </div>
+          <div class="mb-3">
+            <label for="sure" class="form-label">sure</label>
+            <input type="text" class="form-control" id="sure" aria-describedby="emailHelp" name="sure">
+          </div>
+          <div>
+            <label for="sure" class="form-label">gender</label>
+            <select name="gender" class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="woman">woman</option>
+              <option value="man">man</option>
+            </select>
+          </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" name="password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+
+
+<div>
+    <h1>
+        <%= title %>
+    </h1>
+    <a href="/signin">signin</a>
+</div>
